@@ -1,0 +1,15 @@
+form {
+  width: 700px;
+  margin: auto;
+  text-align: left;
+}
+input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 6px;
+  border: 2px solid #dadada;
+  color: #555555;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
