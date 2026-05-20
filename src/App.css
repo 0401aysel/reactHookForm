@@ -1,7 +1,10 @@
 form {
-  width: 700px;
   margin: auto;
   text-align: left;
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0px 0px 20px 1px #6d7ac4;
 }
 input {
   display: block;
@@ -12,4 +15,32 @@ input {
   color: #555555;
   margin: 10px 0;
   box-sizing: border-box;
+}
+.submitBtn {
+  width: max-content;
+  padding: 10px 50px;
+  margin: auto;
+  border: none;
+  color: #fff;
+  background: #6d7ac4;
+}
+input:focus-visible {
+  outline: none;
+  border: 2px solid #6d7ac4;
+}
+form label {
+  color: #6d7ac4;
+  font-weight: 700;
+}
+.errorMessage {
+  color: #de6666;
+  font-size: 12px;
+  float: right;
+  font-weight: 700;
+}
+h1 {
+  color: #6d7ac4;
+}
+#root {
+  background: #6d7ac417;
 }
