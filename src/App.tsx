@@ -20,15 +20,17 @@ const schema = z
     path: ["confirmPassword"],
   });
 
+type FormData = z.infer<typeof schema>;
+
 function App() {
   const {
     handleSubmit,
     control,
     getValues,
     formState: { errors },
-  } = useForm({
+  } = useForm<FormData>({
     defaultValues: {
-      name: "",
+      name: "aysel",
       surname: "",
       email: "",
       password: "",
